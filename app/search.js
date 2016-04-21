@@ -3,7 +3,7 @@ var React = require("react");
 var Search = React.createClass({
   getInitialState: function() {
     return {
-      movie: this.props.movie
+      movie: ""
     }
   },
   searchMovie: function() {

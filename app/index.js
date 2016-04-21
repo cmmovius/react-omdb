@@ -8,7 +8,7 @@ var Home = React.createClass({
       <div>
         <h1>OMBD API</h1>
         <div>
-          <Search movie="Big Hero 6"/>
+          <Search />
         </div>
       </div>
     )
